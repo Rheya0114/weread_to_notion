@@ -1,8 +1,4 @@
-# 微信读书和 Notion 同步
-
----
-
-![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202307151329909.jfif)
+# 微信读书和 Notion 同步![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202307151329909.jfif)
 
 
 本项目通过 Github Action 按照设定的时间同步微信读书划线到Notion。
