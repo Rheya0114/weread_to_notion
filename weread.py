@@ -177,6 +177,39 @@ def check(bookId):
         time.sleep(0.3)
         client.blocks.delete(block_id=result["id"])
 
+def check_cover(book):
+    """检查是否私人导入图书是否能显示图片 如若显示则删除"""
+    time.sleep(0.3)
+    reset_cover = book['reset_cover']
+
+    if reset_cover == 'yes':
+        filter = {
+            "property": "BookId",
+            "rich_text": {
+                "equals": book['bookId']
+            }
+        }
+        response = client.databases.query(database_id=database_id, filter=filter)
+        for result in response["results"]:
+            time.sleep(0.3)
+            client.blocks.delete(block_id=result["id"])
+
+
+'''
+检查 book 封面是否为图片格式
+
+针对于自己导入微信读书的书籍而言，书籍的封面并不一定是规范的图片格式，可能仅仅是缺少图片文件格式后缀名而已.
+'''
+
+
+def check_book_cover(book):
+    book_cover = book['book']['cover']
+    if not book_cover.lower().endswith(
+            ('.bmp', '.dib', '.png', '.jpg', '.jpeg', '.pbm', '.pgm', '.ppm', '.tif', '.tiff')):
+        book['book']['cover'] = book_cover + '.jpg'
+        book['book']['reset_cover'] = "yes"
+    return book
+
 
 def get_chapter_info(bookId):
     """获取章节信息"""
@@ -393,6 +426,7 @@ if __name__ == "__main__":
     if (books != None):
         for book in books:
             sort = book["sort"]
+            book = check_book_cover(book)
             if sort <= latest_sort:
                 continue
             book = book.get("book")
@@ -400,7 +434,8 @@ if __name__ == "__main__":
             cover = book.get("cover")
             bookId = book.get("bookId")
             author = book.get("author")
-            check(bookId)
+            # check(bookId)
+            check_cover(book)
             chapter = get_chapter_info(bookId)
             bookmark_list = get_bookmark_list(bookId)
             summary, reviews = get_review_list(bookId)
