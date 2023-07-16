@@ -185,13 +185,13 @@ def check(bookId):
 '''
 
 
-def check_book_cover(book):
-    book_cover = book['book']['cover']
-    if not book_cover.lower().endswith(
-            ('.bmp', '.dib', '.png', '.jpg', '.jpeg', '.pbm', '.pgm', '.ppm', '.tif', '.tiff')):
-        book['book']['cover'] = book_cover + '.jpg'
-        book['book']['reset_cover'] = "yes"
-    return book
+# def check_book_cover(book):
+#     book_cover = book['book']['cover']
+#     if not book_cover.lower().endswith(
+#             ('.bmp', '.dib', '.png', '.jpg', '.jpeg', '.pbm', '.pgm', '.ppm', '.tif', '.tiff')):
+#         book['book']['cover'] = book_cover + '.jpg'
+#         book['book']['reset_cover'] = "yes"
+#     return book
 
 
 def get_chapter_info(bookId):
@@ -409,7 +409,7 @@ if __name__ == "__main__":
     if (books != None):
         for book in books:
             sort = book["sort"]
-            book = check_book_cover(book)
+            # book = check_book_cover(book)
             if sort <= latest_sort:
                 continue
             book = book.get("book")
