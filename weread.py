@@ -177,23 +177,6 @@ def check(bookId):
         time.sleep(0.3)
         client.blocks.delete(block_id=result["id"])
 
-def check_cover(book):
-    """检查是否私人导入图书是否能显示图片 如若显示则删除"""
-    time.sleep(0.3)
-    reset_cover = book['reset_cover']
-
-    if reset_cover == 'yes':
-        filter = {
-            "property": "BookId",
-            "rich_text": {
-                "equals": book['bookId']
-            }
-        }
-        response = client.databases.query(database_id=database_id, filter=filter)
-        for result in response["results"]:
-            time.sleep(0.3)
-            client.blocks.delete(block_id=result["id"])
-
 
 '''
 检查 book 封面是否为图片格式
@@ -434,8 +417,7 @@ if __name__ == "__main__":
             cover = book.get("cover")
             bookId = book.get("bookId")
             author = book.get("author")
-            # check(bookId)
-            check_cover(book)
+            check(bookId)
             chapter = get_chapter_info(bookId)
             bookmark_list = get_bookmark_list(bookId)
             summary, reviews = get_review_list(bookId)
