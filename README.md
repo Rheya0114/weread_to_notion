@@ -38,6 +38,8 @@
 
 7. <a href="https://github.com/Parantric/weread_to_notion/actions/workflows/weread.yml" target="_blank">🔛 启动任务界面直达</a>
 
+8. [🔛 启动任务界面直达](https://github.com/Parantric/weread_to_notion/actions/workflows/weread.yml){{:target="_blank"}}
+
     
 
 ## 🔗参考
