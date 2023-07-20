@@ -1,0 +1,317 @@
+{
+    "synckey": 1689653381,
+    "updated": [
+        {
+            "bookId": "31594821",
+            "style": 1,
+            "bookVersion": 1064707061,
+            "range": "5031-5115",
+            "markText": "你的样式表属于作者样式表，除此之外还有用户代理样式表，即浏览器默认样式。用户代理样式表优先级低，你的样式会覆盖它们。",
+            "colorStyle": 5,
+            "type": 1,
+            "chapterUid": 13,
+            "createTime": 1689653381,
+            "bookmarkId": "31594821_13_5031-5115"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "标记了！important的声明会被当作更高优先级的来源，因此总体的优先级按照由高到低排列如下所示：(1) 作者的！important(2) 作者(3) 用户代理",
+            "range": "7467-7635",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689331332,
+            "bookmarkId": "31594821_13_7467-7635"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "行内元素属于“带作用域的”声明，它会覆盖任何来自样式表或者<style>标签的样式。行内样式没有选择器，因为它们直接作用于所在的元素。",
+            "range": "8227-8300",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689330958,
+            "bookmarkId": "31594821_13_8227-8300"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "浏览器将优先级分为两部分：HTML的行内样式和选择器的样式。",
+            "range": "8066-8096",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689330817,
+            "bookmarkId": "31594821_13_8066-8096"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "选择器和声明块一起组成了规则集（ruleset）。一个规则集也简称一个规则，不过我发现很少有人说单数形式的规则（rule），通常会用复数形式（rules），用来指一系列样式的集合。最后，@规则（at-rules）是指用“@”符号开头的语法。比如@import规则或者@media查询。",
+            "range": "4599-4879",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689329941,
+            "bookmarkId": "31594821_13_4599-4879"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "包含在大括号内的一组声明被称作一个声明块。声明块前面有一个选择器",
+            "range": "4356-4433",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689329903,
+            "bookmarkId": "31594821_13_4356-4433"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "层叠的规则。当声明冲突时，层叠会依据三种条件解决冲突。(1) 样式表的来源：样式是从哪里来的，包括你的样式和浏览器默认样式等。(2) 选择器优先级：哪些选择器比另一些选择器更重要。(3) 源码顺序：样式在样式表里的声明顺序。",
+            "range": "3168-3445",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689329790,
+            "bookmarkId": "31594821_13_3168-3445"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "层叠指的就是这一系列规则。它决定了如何解决冲突，是CSS语言的基础。",
+            "range": "3055-3096",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689329776,
+            "bookmarkId": "31594821_13_3055-3096"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "每条规则单独来看很简单，但是当两条规则提供了冲突的样式时会发生什么呢？如果你发现有一条规则没有按照预期生效，可能是因为另一条规则跟它冲突了。要想预测规则最终的效果，就需要理解CSS里的层叠。",
+            "range": "823-918",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689327944,
+            "bookmarkId": "31594821_13_823-918"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "1.1 层叠",
+            "chapterUid": 13,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "CSS本质上就是声明规则，即在各种条件下，我们希望产生特定的效果。",
+            "range": "426-459",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689327864,
+            "bookmarkId": "31594821_13_426-459"
+        },
+        {
+            "bookId": "31594821",
+            "bookVersion": 1064707061,
+            "chapterName": "第1章 层叠、优先级和继承",
+            "chapterUid": 12,
+            "colorStyle": 5,
+            "contextAbstract": "",
+            "markText": "你一定要理解基础知识，并且是深入地理解。",
+            "range": "1204-1224",
+            "style": 1,
+            "type": 1,
+            "createTime": 1689327200,
+            "bookmarkId": "31594821_12_1204-1224"
+        }
+    ],
+    "removed": [],
+    "chapters": [
+        {
+            "bookId": "31594821",
+            "chapterUid": 12,
+            "chapterIdx": 12,
+            "title": "第1章 层叠、优先级和继承"
+        },
+        {
+            "bookId": "31594821",
+            "chapterUid": 13,
+            "chapterIdx": 13,
+            "title": "1.1 层叠"
+        }
+    ],
+    "book": {
+        "bookId": "31594821",
+        "version": 1064707061,
+        "format": "epub",
+        "soldout": 0,
+        "bookStatus": 1,
+        "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/821/31594821/s_31594821.jpg",
+        "title": "深入解析CSS",
+        "author": "基思·J.格兰特",
+        "coverBoxInfo": {
+            "blurhash": "KiLEHJ01M{t6Rjay?bIUWB",
+            "colors": [
+                {
+                    "key": "6/4",
+                    "hex": "#8f91ad"
+                },
+                {
+                    "key": "4/4",
+                    "hex": "#5d5d7b"
+                },
+                {
+                    "key": "3/4",
+                    "hex": "#444464"
+                },
+                {
+                    "key": "3/6",
+                    "hex": "#434371"
+                },
+                {
+                    "key": "3/8",
+                    "hex": "#41417c"
+                },
+                {
+                    "key": "2/4",
+                    "hex": "#2f2e4b"
+                },
+                {
+                    "key": "2/6",
+                    "hex": "#2e2c56"
+                },
+                {
+                    "key": "2/8",
+                    "hex": "#2d2961"
+                },
+                {
+                    "key": "1/4",
+                    "hex": "#1b1935"
+                },
+                {
+                    "key": "1/6",
+                    "hex": "#1b163f"
+                },
+                {
+                    "key": "1/8",
+                    "hex": "#1d1248"
+                },
+                {
+                    "key": "6/6",
+                    "hex": "#8c90bb"
+                },
+                {
+                    "key": "4/6",
+                    "hex": "#5b5c88"
+                },
+                {
+                    "key": "9/2",
+                    "hex": "#e1e2ed"
+                },
+                {
+                    "key": "4/10",
+                    "hex": "#5658a1"
+                },
+                {
+                    "key": "5/10",
+                    "hex": "#6e73bb"
+                },
+                {
+                    "key": "5/4",
+                    "hex": "#757793"
+                },
+                {
+                    "key": "8/4",
+                    "hex": "#c2c6e1"
+                },
+                {
+                    "key": "5/8",
+                    "hex": "#7174ae"
+                },
+                {
+                    "key": "6/8",
+                    "hex": "#8a8fc8"
+                },
+                {
+                    "key": "8/6",
+                    "hex": "#bec5f3"
+                },
+                {
+                    "key": "7/8",
+                    "hex": "#a2a9e5"
+                },
+                {
+                    "key": "3/12",
+                    "hex": "#403b93"
+                },
+                {
+                    "key": "9/12",
+                    "hex": "#cddaff"
+                },
+                {
+                    "key": "1/100",
+                    "hex": "#8a8fc8"
+                },
+                {
+                    "key": "2/100",
+                    "hex": "#a2a9e5"
+                },
+                {
+                    "key": "3/100",
+                    "hex": "#ffffff"
+                },
+                {
+                    "key": "4/100",
+                    "hex": "#E5E5F3"
+                },
+                {
+                    "key": "5/100",
+                    "hex": "#E5E5F3"
+                },
+                {
+                    "key": "6/100",
+                    "hex": "#000427"
+                }
+            ],
+            "dominate_color": {
+                "hex": "#797a8c",
+                "hsv": [
+                    237.0452940851212,
+                    13.967037142585732,
+                    54.980526265792729
+                ]
+            },
+            "custom_cover": "https://weread-1258476243.file.myqcloud.com/bookalphacover/821/31594821/s_31594821.jpg",
+            "custom_rec_cover": "https://weread-1258476243.file.myqcloud.com/bookreccover/821/31594821/s_31594821.jpg"
+        }
+    }
+}
