@@ -42,6 +42,6 @@
 
 ## 🔗参考
 
-[github cron 表达式](https://github.com/chiupam/tutorial/blob/master/Loon/Plus/cron.md)
+✅ [github cron 表达式](https://github.com/chiupam/tutorial/blob/master/Loon/Plus/cron.md)
 
-[GitHub Actions 的工作流语法(官方)](https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions)
+✅ [GitHub Actions 的工作流语法(官方)](https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions)
