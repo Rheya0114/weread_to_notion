@@ -30,7 +30,7 @@
         * NOTION_TOKEN
         * NOTION_DATABASE_ID
 6. 🔔 注意：使用 cron 表达式的设置执行时间的时候，默认时区是 UTC 标准时区(英国或者冰岛时区)，在设置的时候需要在原来的基础上 +8 个小时才是中国时区的时间。
-7. [🔛 启动任务界面直达](https://github.com/Parantric/weread_to_notion/actions/workflows/weread.yml)
+7. [🔛 启动任务界面直达](https://github.com/Parantric/weread_to_notion/actions/workflows/weread.yml){:target="_blank"}
 
 ## 🔗参考
 
