@@ -1,4 +1,4 @@
-# 微信读书和 Notion 同步
+# 📖 微信读书和 Notion 同步
 
 ![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202307151329909.jfif)
 
@@ -7,9 +7,9 @@
 
 预览效果：https://book.malinkang.com
 
-**注意：请不要在 Page 里面添加自己的笔记，有新的笔记的时候会删除原笔记重新添加。**
+**⚠ 注意：请不要在 Page 里面添加自己的笔记，有新的笔记的时候会删除原笔记重新添加。**
 
-## 使用说明
+## 📝 使用说明
 
 1. 获取微信读书的 Cookie
     * 浏览器打开 https://weread.qq.com/
