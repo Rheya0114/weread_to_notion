@@ -134,7 +134,10 @@ def get_callout(content, style, colorStyle, reviewId):
     # 如果reviewId不是空说明是笔记
     if reviewId != None:
         emoji = "✍️"
-    color = "default"
+
+    # 默认颜色 gray 灰色
+    color = "gray"
+
     # 根据划线颜色设置文字的颜色
     if colorStyle == 1:
         color = "red"
